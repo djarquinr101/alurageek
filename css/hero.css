@@ -1,0 +1,70 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    padding-bottom: 1rem;
+    width: 100%;
+    height: 192px;
+    background-image: url("/assets/banner-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;  
+}
+
+.banner__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 0.5rem;
+    margin-left:5%;
+    color: white;
+  }
+
+  .banner__promo__info{
+    font-weight: bold;
+    font-size: 0.875rem;
+    margin: 0;
+  }
+  .banner__promo{
+    font-weight: bold;
+    font-size: 1.375rem;
+    margin: 0;
+  }
+
+  .banner__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 118px;
+    height: 40px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    background-color: #2A7AE4;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+
+  @media screen and (min-width: 576px) {
+    .banner{
+      height: 352px;
+      padding-bottom: 2rem;
+    }
+
+    .banner__text{
+      gap: 1.7rem;
+    }
+    .banner__promo{
+      font-size: 3.25rem;
+    }
+    .banner__promo__info{
+      font-size: 1.375rem;
+    }
+    .banner__btn{
+      width: 130px;
+      height: 51px;
+      font-size: 1rem;
+    }
+  }

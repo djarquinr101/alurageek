@@ -1,0 +1,26 @@
+{
+    "producto": [
+        {
+           "url":"https://www.apple.com/v/macbook-air/o/images/overview/hero_mba_m1__mfge6fbp7t2m_large.jpg",
+           "category":"laptops",
+           "name":"MacBook Air",
+           "price":"$999",
+           "description":"MacBook Air with M1 is an incredibly portable laptop — it’s nimble and quick, with a silent, fanless design and a beautiful Retina display. Thanks to its slim profile and all‑day battery life, this Air moves at the speed of lightness." 
+        },
+        {
+            "url":"https://www.apple.com/v/macbook-air/o/images/overview/hero_mba_m2__ejbs627dj7ee_large.jpg",
+            "category":"laptops",
+            "name":"MacBook Air",
+            "price":"$1199",
+            "description":"Redesigned around the next-generation M2 chip, MacBook Air is strikingly thin and brings exceptional speed and power efficiency within its durable all-aluminum enclosure. It's the ultragast, ultracapable latop that lets you work,play, or create just about anyting - anywhere" 
+         },
+         {
+            "url":"https://www.apple.com/v/macbook-air/o/images/overview/hero_mba_m2__ejbs627dj7ee_large.jpg",
+            "category":"laptops",
+            "name":"MacBook Pro 13",
+            "price":"$1299",
+            "description":"The new M2 chip makes the 13‑inch MacBook Pro more capable than ever. The same compact design supports up to 20 hours of battery life1 and an active cooling system to sustain enhanced performance. Featuring a brilliant Retina display, a FaceTime HD camera, and studio‑quality mics, it’s our most portable pro laptop." 
+         }
+    ]
+
+}

@@ -1,0 +1,15 @@
+.footlegend{
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.footlegend h2{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+
+}

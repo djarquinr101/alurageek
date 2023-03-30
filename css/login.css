@@ -1,0 +1,42 @@
+.login__page{
+    background-color: #E5E5E5;
+    padding: 3rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 80%;
+}
+
+.login__form h2{
+    text-align: center;
+}
+
+.login__form input[type='submit']{
+    align-self: center;
+}
+
+#descripcion{
+    resize: none;
+    height: 82px;
+}
+
+@media screen and (min-width: 576px) {
+    .main__form{
+        align-self: center;
+        width: 304px;
+     }
+}
+
+@media screen and (min-width:1024px) {
+    .main__form{
+        width: 423px;
+    }
+}

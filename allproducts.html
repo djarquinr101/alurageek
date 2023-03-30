@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="container__logo">   
+        <a href="/index.html" class="logo"><img src="assets/logo.png" alt="Company Logo"></a>
+        </div>
+        <form class="search-form">
+            <input type="text" placeholder="Que deseas buscar?" name="query" id="query">
+            <button type="submit"><span id="searchBtn" class="material-symbols-outlined">search</span></button>
+        </form>
+        </nav>
+    </header>
+    
+    <section class="products">
+        <div class="product__title__div">
+            <h1 class="prodcut__title">Todos los productos</h1>
+            <a id='add-product'class="btn" href="/agregarproducto.html">Agregar producto</a>
+        </div>
+        <div class="producto__linea" data-products>
+            <div class="card">
+                <img src="/assets/product-img.png" alt="Product Image">
+                <div class="card-details">
+                <h2>Producto XYZ</h2>
+                <p>Price: $60.00</p>
+                <a href="#">Ver producto</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/assets/product-img.png" alt="Product Image">
+                <div class="card-details">
+                <h2>Producto XYZ</h2>
+                <p>Price: $60.00</p>
+                <a href="#">Ver producto</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/assets/product-img.png" alt="Product Image">
+                <div class="card-details">
+                <h2>Producto XYZ</h2>
+                <p>Price: $60.00</p>
+                <a href="#">Ver producto</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/assets/product-img.png" alt="Product Image">
+                <div class="card-details">
+                <h2>Producto XYZ</h2>
+                <p>Price: $60.00</p>
+                <a href="#">Ver producto</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/assets/product-img.png" alt="Product Image">
+                <div class="card-details">
+                <h2>Producto XYZ</h2>
+                <p>Price: $60.00</p>
+                <a href="#">Ver producto</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/assets/product-img.png" alt="Product Image">
+                <div class="card-details">
+                <h2>Producto XYZ</h2>
+                <p>Price: $60.00</p>
+                <a href="#">Ver producto</a>
+                </div>
+            </div>
+            
+        </div> 
+    </section>
+
+    <section class="contact">
+        <div class="about__us">
+            <a href="#" class="logo"><img src="assets/logo.png" alt="Company Logo"></a>
+            <ul>
+                <li><a href="">Quienes somos</a></li>
+                <li><a href="">Politica de privacidad</a></li>
+                <li><a href="">Programa de fidelidad</a></li>
+                <li><a href="">Nuestras Tiendas</a></li>
+                <li><a href="">Quiero ser franquiciado</a></li>
+                <li><a href="">Anuncie aqui</a></li>
+            </ul>
+
+        </div>
+
+        <form class="formcontact"action="">
+            <h2>Hable con nosotros</h2>
+            <input type="text" class="form__input"  id="name" name="name" required placeholder="Nombre">
+            <textarea id="message" class="form__input"  name="message" required placeholder="Mensaje"></textarea>
+            <input class="btn" type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <div class="footlegend">
+            <h2>Desarrollado por Daniel E. Jarquin</h2>
+            <h2>2023</h2>
+        </div>
+    </footer>
+
+    <script type="module"src="/controllers/products-controller.js"></script>
+</body>
+</html>
